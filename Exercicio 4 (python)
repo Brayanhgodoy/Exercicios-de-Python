@@ -1,0 +1,16 @@
+# Declaração das variáveis Peso, Altura e IMC como float
+Peso = 0.0
+Altura = 0.0
+IMC = 0.0
+
+# Entrada de dados: solicitação para o usuário informar seu peso
+Peso = float(input("Me informe seu peso (em kg): "))
+
+# Entrada de dados: solicitação para o usuário informar sua altura
+Altura = float(input("Agora, me informe sua altura (em metros): "))
+
+# Cálculo do IMC
+IMC = Peso / (Altura ** 2)
+
+# Saída de dados: exibe o resultado do IMC calculado
+print("Usando o método de cálculo do IMC, o resultado é:", IMC)

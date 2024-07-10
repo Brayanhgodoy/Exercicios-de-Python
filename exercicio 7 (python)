@@ -1,0 +1,10 @@
+
+var
+N1, Me1, Ma1: Inteiro
+inicio
+escreval("Me informe um número inteiro: ")
+Leia (N1)
+Me1 <- N1-1
+Ma1 <- N1+1
+escreval("o seu número e seu antecessor e sucessor fica assim: ", Me1, N1, Ma1)
+fimalgoritmo

@@ -1,0 +1,33 @@
+# Declaração das variáveis A, B (números reais) e Resposta (caractere para a resposta do usuário)
+A = 0.0
+B = 0.0
+Resposta = ""
+
+# Entrada de dados: solicitação para o usuário informar o primeiro número
+A = float(input("Digite o primeiro número: "))
+
+# Entrada de dados: solicitação para o usuário informar o segundo número
+B = float(input("Digite o segundo número: "))
+
+# Saída de dados: exibe os valores das variáveis A e B
+print("O valor da variável A é:", A)
+print("O valor da variável B é:", B)
+
+# Laço de repetição para perguntar se o usuário deseja trocar os valores
+while True:
+    print("")
+    resposta = input("Agora trocarei o valor deles, preparado? [S/N]: ")
+    if resposta.upper() == "S":
+        # Troca dos valores de A e B
+        A, B = B, A
+        print("Valores trocados com sucesso!")
+        break
+    elif resposta.upper() == "N":
+        print("Você optou por não trocar os valores.")
+        break
+    else:
+        print("Opção inválida. Por favor, digite S para sim ou N para não.")
+
+# Saída de dados: exibe os novos valores das variáveis A e B após a troca (se realizada)
+print("")
+print("Agora, a

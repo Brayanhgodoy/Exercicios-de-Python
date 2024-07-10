@@ -1,0 +1,8 @@
+# Declaração de variáveis
+Dias = float(input("Quantos dias você trabalhou no mês? "))
+
+# Cálculo do salário
+Sal = 200 * Dias
+
+# Saída do resultado
+print("Seu salário é de:", Sal)

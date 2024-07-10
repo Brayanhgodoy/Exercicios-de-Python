@@ -1,0 +1,16 @@
+
+# Declaração das variáveis N1 (número real), Dobl (dobro do número) e DivTres (terça parte do número)
+N1 = 0.0
+Dobl = 0.0
+DivTres = 0.0
+
+# Entrada de dados: solicitação para o usuário informar um número
+N1 = float(input("Me informe um número: "))
+
+# Cálculos
+Dobl = N1 * 2
+DivTres = N1 / 3
+
+# Saída de dados: exibe os resultados das operações
+print("O dobro dele é:", Dobl)
+print("E a terça parte dele é:", DivTres)

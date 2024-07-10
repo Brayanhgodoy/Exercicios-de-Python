@@ -1,0 +1,12 @@
+# Declaração das variáveis nome e idade
+nome = ""
+idade = 0
+
+# Entrada de dados: solicitação para o usuário informar seu nome
+nome = input("Me informe seu nome: ")
+
+# Entrada de dados: solicitação para o usuário informar sua idade
+idade = int(input("Agora me diga sua idade: "))
+
+# Saída de dados: exibe o nome e a idade informados pelo usuário
+print("Seu nome é", nome, "e sua idade é", idade)

@@ -1,0 +1,8 @@
+# Declaração da variável num como inteiro
+num = 0
+
+# Entrada de dados: solicitação para o usuário digitar um número
+num = int(input("Me diga um número: "))
+
+# Saída de dados: exibe o número digitado pelo usuário
+print("O número que você me disse é:", num)

@@ -1,0 +1,20 @@
+# Declaração das variáveis Lc1, Lc2, Lc3 (lucros reais) e Med (média real)
+Lc1 = 0.0
+Lc2 = 0.0
+Lc3 = 0.0
+Med = 0.0
+
+# Entrada de dados: solicitação para o usuário informar o lucro de janeiro
+Lc1 = float(input("Me informe o Lucro obtido em janeiro: "))
+
+# Entrada de dados: solicitação para o usuário informar o lucro de fevereiro
+Lc2 = float(input("Me informe o Lucro obtido em fevereiro: "))
+
+# Entrada de dados: solicitação para o usuário informar o lucro de março
+Lc3 = float(input("Me informe o Lucro obtido em março: "))
+
+# Cálculo da média de lucros
+Med = (Lc1 + Lc2 + Lc3) / 3
+
+# Saída de dados: exibe a média de lucros calculada
+print("A média de lucro é de:", Med)

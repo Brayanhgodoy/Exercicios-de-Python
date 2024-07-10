@@ -1,0 +1,26 @@
+# Declaração das variáveis N1, N2 (números inteiros) e A, B, C, D (números reais para os resultados)
+N1 = 0
+N2 = 0
+A = 0.0
+B = 0.0
+C = 0.0
+D = 0.0
+
+# Entrada de dados: solicitação para o usuário informar o primeiro número
+N1 = int(input("Me informe o Primeiro número: "))
+
+# Entrada de dados: solicitação para o usuário informar o segundo número
+N2 = int(input("Me informe o Segundo número: "))
+
+# Cálculos
+A = N1 + N2
+B = N1 - N2
+C = N1 * N2
+D = N1 / N2  # Note que em Python a divisão de inteiros gera um resultado em ponto flutuante se necessário
+
+# Saída de dados: exibe os resultados das operações
+print("")
+print("A soma deles é:", A)
+print("A subtração entre o primeiro pelo segundo é:", B)
+print("A multiplicação entre eles é:", C)
+print("A divisão do primeiro pelo segundo número é:", D)

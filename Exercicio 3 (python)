@@ -1,0 +1,19 @@
+# Declaração das variáveis N1, N2, N3 (notas) e Med (média) como float
+N1 = 0.0
+N2 = 0.0
+N3 = 0.0
+Med = 0.0
+
+# Entrada de dados: solicitação para o usuário informar seu nome
+Nome = input("Me informe seu nome: ")
+
+# Entrada de dados: solicita ao usuário que informe suas três notas
+N1 = float(input("Me diga sua primeira nota: "))
+N2 = float(input("Me diga sua segunda nota: "))
+N3 = float(input("Me diga sua terceira nota: "))
+
+# Cálculo da média
+Med = (N1 + N2 + N3) / 3
+
+# Saída de dados: exibe o nome e a média calculada
+print(Nome, ", de acordo com os cálculos, sua média é:", Med)

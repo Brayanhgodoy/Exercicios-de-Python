@@ -1,0 +1,13 @@
+var
+A, B, C, Delta: Real
+inicio
+escreval("Me informe o valor de A: ")
+Leia (A)
+escreval("Me informe o valor de B: ")
+Leia (B)
+escreval("Me informe o valor de C: ")
+Leia (C)
+Delta <- B^2
+Delta <- Delta-(4*a*c)
+escreval("De acordo com os valores, o delta é: ", Delta)
+fimalgoritmo
